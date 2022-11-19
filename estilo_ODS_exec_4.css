@@ -1,0 +1,95 @@
+*{
+	margin:0px; 
+	padding:0px;
+	text-align:center;
+}
+header{ 
+	margin:0 auto;
+	width:1000px; 
+	height:240px;
+	border:solid #c0c0c0 1px;
+}
+footer{ 
+	margin:0 auto;
+	width:1000px; 
+	height:40px;
+	border:solid #c0c0c0 1px;
+	font-size: 14px;
+	font-family: verdana;
+	
+
+}
+/*header*/ 
+header img{
+	width:180px; 
+	height:170px;
+	
+}
+
+header{
+	background: #fff URL(banner.jpg) ;
+}
+header nav ul {
+	text-align: right;
+	list-style-type: none;
+	padding-top:40px;
+}
+
+header nav ul li{ 
+	display:inline;
+	margin-right: 20px;
+}
+
+nav ul li a{
+	text-decoration:none;
+}
+
+} nav ul li a:hover{
+	color:#000;
+	text-decoration:underline;
+}
+.menu{
+	list-style:none;
+	float:right;
+}
+.menu li{
+	position:relative;
+	float:left;
+	border-right:1px solid #c0c0c0;
+}
+.menu li a{
+	color:#333;
+	text-decoration:none;
+	padding:5px 10px;
+	display:block;
+}
+.menu li a:hover{		
+	background:#333;
+	color:#fff;
+}	
+	
+ /* section centro */
+
+section#centro {
+	width:1000px;
+	height:800px;
+	margin:0 auto;
+	border-left: solid #c0c0c0 1px;
+	border-right: solid #c0c0c0 1px;
+}
+
+/* section artigos */
+
+section#artigos h2{
+	font-family: tahoma;
+	text-align: lcenter;
+	font-size: 18px;
+	
+}
+section#artigos p{
+	font-family: tahoma;
+	text-align: justify;
+	line-height: 1.5;
+	margin-right: 20px;
+	margin-left: 20px;
+}
